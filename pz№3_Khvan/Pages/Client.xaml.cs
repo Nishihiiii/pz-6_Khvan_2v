@@ -51,9 +51,11 @@ namespace pz_3_Khvan.Pages
 					txtWelcome.Text = $"Вы вошли как: {_user.Login}";
 					break;
 
-				case "Сотрудник":
+				case "Бухгалтер":
 				case "Администратор":
 				case "Менеджер":
+				case "Техподдержка":
+
 					txtWelcome.Text = $"Вы вошли как: {_user.Login}, (Роль: {_role})";
 					break;
 
